@@ -1,6 +1,8 @@
-declare module '*.sass';
 declare module '*.scss';
-declare module '*.css';
+declare module '*.module.scss' {
+  const classes: { [key: string]: string };
+  export default classes;
+}
 declare module '*.jpg';
 declare module '*.jpeg';
 declare module '*.png';
