@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA,4BACE,kBACA,gBAGF,+BACE,cACA,eACA,iB","sources":["webpack://app-store/./src/app/App.module.scss"],"sourcesContent":[".container {\n  text-align: center;\n  margin-top: 3rem;\n}\n\n.container h1 {\n  color: #4caf50;\n  font-size: 3rem;\n  font-weight: bold;\n}\n"],"names":[],"sourceRoot":""}
