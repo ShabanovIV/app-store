@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkapp_store=self.webpackChunkapp_store||[]).push([[792],{488:(e,t,r)=>{var s=r(848),o=r(540),c=r(338);c.createRoot(document.getElementById("root")).render((0,s.jsx)(o.StrictMode,{children:(0,s.jsx)((()=>(0,s.jsx)("div",{className:"App-module_container-SM1hd",children:(0,s.jsx)("h1",{children:"Welcome to App Store!!!"})})),{})}))}},e=>{e.O(0,[179],(()=>e(e.s=488))),e.O()}]);
-//# sourceMappingURL=main.576adf981608cbdf3b1d.js.map
