@@ -4,21 +4,16 @@
     <meta charset="UTF-8" />
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="0; url=/app-store" />
     <script>
       (function () {
         var path = window.location.pathname;
         var base = '/app-store';
 
-        console.log('path', path);
-
         if (path.startsWith(base)) {
-          return;
+          window.location.replace(path);
+        } else {
+          window.location.replace(base + path);
         }
-
-        console.log('redirecting to', base + path);
-
-        window.location.replace(base + path);
       })();
     </script>
   </head>
