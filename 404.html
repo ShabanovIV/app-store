@@ -10,10 +10,13 @@
         var base = '/app-store';
 
         if (path.startsWith(base)) {
-          window.location.replace(path);
-        } else {
-          window.location.replace(base + path);
+          if (path === base + '/404.html') {
+            window.location.replace(base + '/');
+          }
+          return;
         }
+
+        window.location.replace(base + path);
       })();
     </script>
   </head>
