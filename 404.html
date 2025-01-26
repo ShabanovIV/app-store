@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="0; url=/app-store" />
     <script>
-      var path = window.location.pathname;
-      var base = '/app-store';
-      window.location.replace(base + path);
+      (function () {
+        var path = window.location.pathname;
+        var base = '/app-store';
+
+        if (path.startsWith(base)) {
+          return;
+        }
+
+        window.location.replace(base + path);
+      })();
     </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
 </html>
