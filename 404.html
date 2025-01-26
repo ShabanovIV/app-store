@@ -10,9 +10,13 @@
         var path = window.location.pathname;
         var base = '/app-store';
 
+        console.log('path', path);
+
         if (path.startsWith(base)) {
           return;
         }
+
+        console.log('redirecting to', base + path);
 
         window.location.replace(base + path);
       })();
