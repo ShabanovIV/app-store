@@ -1,0 +1,1 @@
+{"version":3,"file":"129.15dac1e003ce2a373c64.js","mappings":"iJAAA,MAQA,EAR2B,KAEvB,0BACE,oE","sources":["webpack://app-store/./src/pages/HomePage/HomePage.tsx"],"sourcesContent":["const HomePage: React.FC = () => {\n  return (\n    <div>\n      <h1>Добро пожаловать на домашнюю страницу!</h1>\n    </div>\n  );\n};\n\nexport default HomePage;\n"],"names":[],"sourceRoot":""}
