@@ -1,7 +1,7 @@
-.AppContent-module_content-X1q5X{flex:1;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;padding:1rem 3%;background-color:#c5ced6;overflow:auto}
+.AppContent-module_content-X1q5X{flex:1;display:flex;justify-content:center;align-items:center;padding:1rem 0;background-color:#c5ced6;overflow:auto}
 .AppMenu-module_menu-kIy7w{display:flex;gap:1.25rem;list-style:none;margin:0;padding:0}.AppMenu-module_item-h591S{position:relative}.AppMenu-module_item-h591S a{text-decoration:none;color:#333;font-weight:500;padding:.625rem .9375rem;transition:color .3s ease-in-out}.AppMenu-module_item-h591S a:hover{color:#007bff}.AppMenu-module_item-h591S:not(:last-child)::after{content:"";position:absolute;right:-0.625rem;top:50%;transform:translateY(-50%);width:.0625rem;height:1.25rem;background-color:#ccc}
 .Logo-module_logo-NpPh8{display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.5s}.Logo-module_logo-NpPh8:hover{transform:scale(1.2)}
 .AppHeader-module_header-zuk5F{position:sticky;top:0;left:0;right:0;height:3rem;background:#fff;display:flex;justify-content:space-between;align-items:center;padding:0 3%;box-shadow:0 .313rem .626rem rgba(0,0,0,.3);z-index:1000}
-.AppLayout-module_layout-fQ34W{display:flex;flex-direction:column;height:100dvh}
+.AppLayout-module_layout-fQ34W{display:flex;flex-direction:column;height:100dvh;width:100dvw}
 
 /*# sourceMappingURL=main.css.map*/
