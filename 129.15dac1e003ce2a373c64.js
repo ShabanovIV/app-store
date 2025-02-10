@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkapp_store=self.webpackChunkapp_store||[]).push([[129],{7129:(e,s,p)=>{p.r(s),p.d(s,{default:()=>a});var r=p(4848);const a=()=>(0,r.jsx)("div",{children:(0,r.jsx)("h1",{children:"Добро пожаловать на домашнюю страницу!"})})}}]);
-//# sourceMappingURL=129.15dac1e003ce2a373c64.js.map
