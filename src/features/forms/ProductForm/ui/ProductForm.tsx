@@ -22,7 +22,7 @@ interface ProductFormProps {
 
 export const ProductForm: React.FC<ProductFormProps> = ({ action, productId, onCreated }) => {
   const [isChanges, setIsChanges] = useState(action === Actions.create);
-  const [form] = Form.useForm();
+  const [form] = Form.useForm<FieldType>();
   const { data, dataCategories, isFetching } = useGet(action === Actions.create, productId, form);
   const { update, isUpdating, isUpdateSuccess } = useUpdate(form);
   const { create, isCreating, isCreatingSuccess } = useCreate(form);
